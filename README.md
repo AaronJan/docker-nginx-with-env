@@ -12,7 +12,9 @@ But, it's usable if you follow the rules.
 ## Todo
 
 1.Make this can replace every configure file in the `conf.d` folder
+
 2.Support other ENV configures(?? other then PHP? Don't know what's that yet)
+
 3.Still thinking...
 
 ##How to use
