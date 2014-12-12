@@ -40,6 +40,8 @@ win-utf
 
 4.Start this image link with php-fpm container:
 
+```bash
 docker run -d -p 80:80 --link [your php-fpm container]:phpfpm --volumes-from web_server_php-fpm --name nginx -v [your nginx configure folder]:/etc/nginx_readonly:ro -v [your www folder]:/usr/share/nginx/html:ro aaronjan/nginx-with-env:latest
+```
 
 5.Boom. You're good to go.
